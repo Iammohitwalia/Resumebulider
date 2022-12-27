@@ -50,7 +50,7 @@ const ResumePreview = () => {
 
             <VStack m={4} alignItems={"flex-start"} spacing={0.5}>
               <Heading as="h4" size="md">
-                {about.name ? about.name : "Jhon Doe"}
+                {about.name ? about.name : "Mohit Walia"}
               </Heading>
               <Text color={"gray.500"}>
                 {about.role ? about.role : "Full Stack Web Developer"}
@@ -66,15 +66,15 @@ const ResumePreview = () => {
           >
             <HStack spacing={1}>
               <MdMail />{" "}
-              <Text>{about.email ? about.email : "jhondoe@gmail.com"}</Text>
+              <Text>{about.email ? about.email : "mohit.strixdevelopment@gmail.com"}</Text>
             </HStack>
             <HStack spacing={1}>
               <MdLocalPhone />{" "}
-              <Text>{about.phone ? about.phone : "+918559584846"}</Text>
+              <Text>{about.phone ? about.phone : "+917018629215"}</Text>
             </HStack>
             <HStack spacing={1}>
               <MdLocationPin />{" "}
-              <Text>{about.address ? about.address : "Pune, MH"}</Text>
+              <Text>{about.address ? about.address : "Himachal Pradesh, HP"}</Text>
             </HStack>
             <HStack spacing={1}>
               <RiLinkedinBoxFill />{" "}
@@ -112,10 +112,10 @@ const ResumePreview = () => {
                       pb={2}
                     >
                       <Text fontWeight={"medium"}>
-                        {degree ? degree : "B.Tech Computer Engineering"}
+                        {degree ? degree : "BCA Computer Apllication"}
                       </Text>
                       <Text fontSize={"sm"}>
-                        {school ? school : "College of Engineering Pune"}
+                        {school ? school : "HPU shimla"}
                       </Text>
                       <HStack
                         fontSize={"xs"}
@@ -124,7 +124,7 @@ const ResumePreview = () => {
                         w={"full"}
                       >
                         <Text>
-                          {startYr ? startYr : 2014} - {endYr ? endYr : 2018}
+                          {startYr ? startYr : 2016} - {endYr ? endYr : 2019}
                         </Text>
                         <Text>{grade ? grade : "8.7 CGPA"}</Text>
                       </HStack>
@@ -156,20 +156,20 @@ const ResumePreview = () => {
                       pb={2}
                     >
                       <Text fontWeight={"medium"}>
-                        {position ? position : "Full Stack Developer"}
+                        {position ? position : "Back-End Developer"}
                       </Text>
                       <Text fontSize={"sm"}>
-                        {company ? company : "XYZ Infotech Services"} -{" "}
+                        {company ? company : "Strix Dvelopment"} -{" "}
                         {type ? type : "Full-time"}
                       </Text>
                       <Text fontSize={"xs"} fontStyle={"italic"}>
-                        {startDate ? startDate : "2018-03"} -{" "}
-                        {endDate ? endDate : "2021-12"}
+                        {startDate ? startDate : "2020-03"} -{" "}
+                        {endDate ? endDate : "present"}
                       </Text>
                       <Text fontSize={"sm"} as="p">
                         {desc
                           ? desc
-                          : "Fixed bugs from existing websites and implemented enhancements that significantly improved web functionality and speed."}
+                          : "Backend web developer"}
                       </Text>
                     </VStack>
                   );
